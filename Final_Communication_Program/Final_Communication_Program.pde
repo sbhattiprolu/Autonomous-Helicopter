@@ -45,7 +45,7 @@ requestEvent ()
   outbuf[2] = nunchuk_encode_byte(100); // Axis X
   outbuf[3] = nunchuk_encode_byte(100); // Axis Y
   outbuf[4] = nunchuk_encode_byte(100); // Axis Z
-  outbuf[5] = nunchuk_encode_byte(1); // Press C button, byte[5] is buttons 
+  outbuf[5] = nunchuk_encode_byte(1); // Press C button, by te[5] is buttons 
   //C,Z and accelaration data
   //outbuf[5] = nunchuk_encode_byte(2); // Press Z button
   //outbuf[5] = nunchuk_encode_byte(0); // Press Z and C button
